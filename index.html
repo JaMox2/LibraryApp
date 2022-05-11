@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Library</title>
+</head>
+<body>
+    
+    <div class="page-wrapper">
+
+        <header class="header">
+            <span>JaMo's - library</span> <!--Get name if loged in-->
+            <a>Log in</a>
+        </header>
+
+        <section class="main-body">
+
+            <div class="ctrl">
+                <a href="#" id="addBooks">Add book</a>
+            </div>
+
+            <div class="books-container">
+                <!-- <div class="book">
+                    <span class="title">The Harry Potter</span>
+                    <span class="author">JK Rowling</span>
+                    <span class="pages">Pages : 500</span>
+                    <a class="notRead" href="#">Read</a>
+                    <a class="remove" href="#">Remove</a>
+                </div>
+                <div class="book">
+                    <span class="title">The Harry Potter</span>
+                    <span class="author">JK Rowling</span>
+                    <span class="pages">Pages : 500</span>
+                    <a class="read" href="#">Read</a>
+                    <a class="remove" href="#">Remove</a>
+                </div>
+                <div class="book">
+                    <span class="title">The Harry Potter</span>
+                    <span class="author">JK Rowling</span>
+                    <span class="pages">Pages : 500</span>
+                    <a class="read" href="#">Read</a>
+                    <a class="remove" href="#">Remove</a>
+                </div>
+                <div class="book">
+                    <span class="title">The Harry Potter</span>
+                    <span class="author">JK Rowling</span>
+                    <span class="pages">Pages : 500</span>
+                    <a class="read" href="#">Read</a>
+                    <a class="remove" href="#">Remove</a>
+                </div> -->
+                
+            </div>
+
+        </section>
+
+        <div class="gray-Filter" id="gray-Filter">
+            <form class="book-inputs">
+                <h1>Add new book</h1>
+                <input type="text" placeholder="Title" id="title" required>
+                <input type="text" placeholder="Author" id="author" required>
+                <input type="number" placeholder="Pages" id="pages" required>
+                <div class="haveYouRead">
+                    <span>Have you read it?</span>
+                    <input type="checkbox" id="no-yes">
+                </div>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <div class="message">
+                <span>This book already exists in your library</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/JS.js"></script>
+
+</body>
+</html>
